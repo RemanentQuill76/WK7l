@@ -7,6 +7,11 @@ public class TestPolymorphism {
 
         a = (Animal) new Cat();
         a.sound();
-        ((Dog) a).sound();
+        //((Dog) a).sound();
+
+	//Modify step
+	Animal b;
+	b = new Bird();
+	b.sound();
     }
 }
